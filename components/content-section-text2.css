@@ -1,0 +1,10 @@
+.content-section-text2-container {
+  display: flex;
+  position: relative;
+}
+.content-section-text2-text {
+  width: 100%;
+  z-index: 100;
+}
+
+

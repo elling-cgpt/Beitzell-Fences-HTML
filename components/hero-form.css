@@ -1,0 +1,217 @@
+.hero-form-form-row {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/white-wooden-fence-1500w.jpg");
+}
+.hero-form-form-col-inner {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero-form-form-col {
+  width: 450px;
+  padding: var(--dl-space-space-unit);
+  max-width: 500px;
+  box-shadow: 0px 0px 4px 0px #f9f9f9;
+  margin-left: var(--dl-space-space-fourunits);
+  border-color: #007733;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #79332d;
+}
+.hero-form-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.hero-form-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.hero-form-text03 {
+  font-style: italic;
+}
+.hero-form-text05 {
+  font-style: italic;
+}
+.hero-form-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-success-300);
+}
+.hero-form-text07 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.hero-form-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+}
+.hero-form-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero-form-inputclientid {
+  display: none;
+}
+.hero-form-inputlandingpageid {
+  display: none;
+}
+.hero-form-textinput {
+  width: 100%;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.hero-form-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+}
+.hero-form-textinput1 {
+  width: 47%;
+}
+.hero-form-textinput2 {
+  width: 45%;
+}
+.hero-form-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+}
+.hero-form-textinput3 {
+  width: 47%;
+}
+.hero-form-textinput4 {
+  width: 45%;
+}
+.hero-form-textinput5 {
+  width: 100%;
+  height: var(--dl-size-size-large);
+  align-self: flex-start;
+  text-align: start;
+}
+.hero-form-button {
+  padding: var(--dl-space-space-unit);
+  font-size: 20px;
+  margin-top: var(--dl-space-space-unit);
+  background-color: var(--dl-color-success-300);
+}
+.hero-form-text11 {
+  color: #ffffff;
+}
+.hero-form-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.hero-form-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.hero-form-text14 {
+  color: rgb(255, 255, 255);
+  margin-top: var(--dl-space-space-twounits);
+}
+@media(max-width: 1600px) {
+  .hero-form-text {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .hero-form-text03 {
+    font-style: italic;
+  }
+  .hero-form-text04 {
+    font-style: italic;
+  }
+  .hero-form-text05 {
+    font-style: italic;
+  }
+  .hero-form-inputclientid {
+    display: none;
+  }
+  .hero-form-inputlandingpageid {
+    display: none;
+  }
+}
+@media(max-width: 991px) {
+  .hero-form-form-row {
+    align-self: center;
+  }
+  .hero-form-form-col-inner {
+    max-width: 880px;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .hero-form-form-col {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .hero-form-form-row {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .hero-form-form-col {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .hero-form-form-row {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .hero-form-form-col {
+    border-color: transparent;
+    border-width: 0px;
+    border-radius: 0px;
+  }
+}
