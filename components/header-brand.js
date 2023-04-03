@@ -7,6 +7,11 @@ const HeaderBrand = (props) => {
   return (
     <>
       <div className="header-brand-header-brand-row">
+        <div>
+          <DangerousHTML
+            html={`<meta name="googlebot" content="noindex">`}
+          ></DangerousHTML>
+        </div>
         <div className="header-brand-header-brand-inner">
           <div className="header-brand-logo-col">
             <div className="header-brand-container">
