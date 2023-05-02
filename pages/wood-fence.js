@@ -35,7 +35,7 @@ const WoodFence = (props) => {
           </div>
           <HeroForm
             inputclient_id_placeholder="58152ae5-3092-48a4-ae8d-1c830e0b904c"
-            inputlanding_page_id_placeholder="a0fa1304-36dd-43e8-833f-49393299ba10"
+            inputlanding_page_id_placeholder="9c38d252-0377-4c41-ba4e-627dbcae76ab"
           ></HeroForm>
           <OfferRow></OfferRow>
           <div className="wood-fence-content-section">
@@ -196,7 +196,7 @@ const WoodFence = (props) => {
           </div>
           <FinalFormRow
             inputclient_id_placeholder="58152ae5-3092-48a4-ae8d-1c830e0b904c"
-            inputlanding_page_id_placeholder="a0fa1304-36dd-43e8-833f-49393299ba10"
+            inputlanding_page_id_placeholder="9c38d252-0377-4c41-ba4e-627dbcae76ab"
           ></FinalFormRow>
           <Footer></Footer>
         </div>

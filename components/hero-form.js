@@ -108,7 +108,7 @@ const HeroForm = (props) => {
               <span className="hero-form-text14">
                 <span>
                   * Cannot be combined with other offers. Residential Only. Some
-                  exclusions may apply. Offer Valid through 3/31/2023.
+                  exclusions may apply. Offer Valid through 5/30/2023.
                 </span>
                 <br></br>
                 <br></br>
